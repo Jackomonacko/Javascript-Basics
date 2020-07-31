@@ -25,3 +25,10 @@ for (let row of magicalNumbers) {
 		console.log(num);
 	}
 }
+
+const dog1 = [ 'blonde', 'black', 'fuzzy' ];
+const dog2 = [ 'cockapoo', 'lab', 'hairy' ];
+
+for (let i = 0; i < dog1.length; i++) {
+	console.log(`${dog1[i]} ${dog2[i]}`);
+}
