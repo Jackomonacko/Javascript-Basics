@@ -1,0 +1,24 @@
+h1 {
+	color: rgb(0, 128, 85);
+	font-size: 60px;
+}
+
+#mountain-photo {
+	width: 1000px;
+}
+
+.special {
+	color: rgb(0, 128, 85);
+	font-size: 30px;
+	border: 1px solid rgb(0, 128, 85);
+}
+
+input[type="password"] {
+	height: 500px;
+	width: 100px;
+}
+
+input[type="submit"] {
+	height: 200px;
+	width: 100px;
+}
