@@ -60,3 +60,5 @@ firstLi.nextElementSibling;
 const thirdLi = firstLi.nextElementSibling.nextElementSibling;
 
 thirdLi;
+
+thirdLi.previousElementSibling;
