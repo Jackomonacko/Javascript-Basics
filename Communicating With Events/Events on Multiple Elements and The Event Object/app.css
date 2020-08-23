@@ -1,0 +1,14 @@
+.colorBoxx {
+	width: 300px;
+	height: 400px;
+}
+
+#colas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+}
