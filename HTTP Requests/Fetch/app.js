@@ -1,15 +1,13 @@
-fetch('https://swapi.dev/api/planetss/')
+fetch('https://swapi.dev/api/planets/')
 	.then((response) => {
-		if (!response.ok) {
-			throw new Error(`Status code: ${response.status}`);
-		} else {
-			console.log(response);
-			response.json().then((data) => {
-				for (let planets of data.results) {
-					console.log(planets.name);
-				}
-			});
-		}
+		if (!response.ok) throw new Error(`Status code: ${response.status}`);
+		console.log(response);
+		response.json().then((data) => {
+			for (let planets of data.results) {
+				//console.log(planet)
+				console.log(planets.name);
+			}
+		});
 	})
 	.catch((err) => {
 		console.log('uh ohh');
