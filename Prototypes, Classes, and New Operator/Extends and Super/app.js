@@ -1,6 +1,6 @@
 class Pet {
 	constructor(name, age) {
-		console.log(`In dog constructor`);
+		console.log(`In pet constructor`);
 		this.namee = name;
 		this.age = age;
 	}
